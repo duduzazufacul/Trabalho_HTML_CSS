@@ -1,0 +1,39 @@
+html {
+    background-color: #d1d1cf;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    box-sizing: border-box;
+    padding: 5px 5px;
+    font-size: 16px;
+    background-color: #bdbdb9;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.produto {
+    background-color: #bdbdb9;
+    width: 850px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 5px solid #27292b;
+    border-radius: 10px;
+}

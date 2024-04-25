@@ -1,0 +1,69 @@
+
+@keyframes countdown {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    animation: countdown 1s ease-in-out forwards;
+}
+
+.countdown time {
+    margin: 0 10px;
+}
+
+/* Animação da contagem regressiva */
+@keyframes countdown-animation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/*Contagem bonitinha*/
+
+/*Formulario*/
+
+.countdown time {
+    animation: countdown-animation 1s ease-in-out infinite alternate;
+}
+.pre-order {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pre-order form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pre-order label {
+    margin-bottom: 10px;
+}
+
+.pre-order input, .pre-order button {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.pre-order button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pre-order button:hover {
+    background-color: #0056b3;
+}

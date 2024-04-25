@@ -1,0 +1,23 @@
+html {
+    background-color: #d1d1cf;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.caixaLogin {
+    background-color: #bdbdb9;
+    width: 270px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 5px solid #757571;
+    border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+html {
+    background-color: #d1d1cf;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    background-color: #bdbdb9;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 5px solid #27292b;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}

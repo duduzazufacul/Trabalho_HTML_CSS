@@ -1,0 +1,21 @@
+.faq details {
+    margin-bottom: 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease;
+}
+
+.faq details p {
+    margin-top: 10px;
+}
+
+
+.faq details[open] summary {
+    color: #007bff; 
+}
+header {
+    background-image: url(../img/xmen1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: yellow;
+}

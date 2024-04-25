@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento de Produto</title>
+    <link rel="stylesheet" href="css/exercicio_15.css">
+</head>
+<body>
+    <header>
+        <h1>Lançamento do Nosso Novo Produto!</h1>
+        <div class="countdown">
+            <time>10d</time>
+            <time>05h</time>
+            <time>30m</time>
+            <time>00s</time>
+        </div>
+    </header>
+
+    <section class="product-images">
+        <img src="img/camisa1.jpg" height="250" widith="250" alt="Imagem camisa1">
+        <img src="img/camisa2.jpg" height="250" widith="250" alt="Imagem camisa2">
+    </section>
+
+    <section class="features">
+        <h2>Recursos Destacados</h2>
+        <ul>
+            <li>100% Algodão!</li>
+            <li>Todos os tamanhos!</li>
+            <li>Super Confortálvel!</li>
+        </ul>
+    </section>
+
+    <section class="pre-order">
+        <h2>Formulário de Pré-Venda</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="quantity">Quantidade desejada:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

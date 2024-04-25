@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+img {width: 100px;
+}
+header h1 {
+    color: #e60e0e; 
+}
+.promocoes .oferta h2 {
+    color: #0e94ee; 
+}
+
+.promocoes .oferta del {
+    color: red; 
+}

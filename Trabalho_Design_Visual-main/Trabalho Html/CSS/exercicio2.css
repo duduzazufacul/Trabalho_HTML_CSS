@@ -1,0 +1,32 @@
+html {
+    background-color: #d1d1cf;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.masquaico {
+    background-color: #bdbdb9;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 3px solid #000000;
+    border-radius: 15px;
+}
+
+a {
+    color: #403e3e;
+}

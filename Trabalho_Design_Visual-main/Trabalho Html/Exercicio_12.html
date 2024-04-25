@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 12</title>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="CSS/Exercicio_12.css">
+</head>
+<body>
+    <header>
+        <h1>Itens da Feira</h1>
+    </header>
+      <div class="gallery"> 
+        <figure>
+          <img src="img/Abacate.webp" alt="Abacate" class="thumbnail" onclick="showFullscreen('img/Abacate.webp')">
+        </figure>
+        <figure>
+          <img src="img/Abacaxi.jpeg" alt="Abacaxi" class="thumbnail" onclick="showFullscreen('img/Abacaxi.jpeg')">
+        </figure>
+        <figure>
+          <img src="img/Abobora.jpeg" alt="Abobora" class="thumbnail" onclick="showFullscreen('img/Abobora.jpeg')">
+        </figure>
+        <figure>
+            <img src="img/Abobrinha.jpeg" alt="Abobrinha" class="thumbnail" onclick="showFullscreen('img/Abobrinha.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/Agriao.jpeg" alt="Agriao" class="thumbnail" onclick="showFullscreen('img/Agriao.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/Brocolis.jpeg" alt="Brocolis" class="thumbnail" onclick="showFullscreen('img/Brocolis.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/Cenoura.jpeg" alt="Cenoura" class="thumbnail" onclick="showFullscreen('img/Cenoura.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/Coentro.jpeg" alt="Coentro" class="thumbnail" onclick="showFullscreen('img/Coentro.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/couve-flor.jpeg" alt="couve-flor" class="thumbnail" onclick="showFullscreen('img/couve-flor.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/Inhame.jpeg" alt="Inhame" class="thumbnail" onclick="showFullscreen('img/Inhame.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/Melão.jpeg" alt="Melão" class="thumbnail" onclick="showFullscreen('img/Melão.jpeg')">
+          </figure>
+          <figure>
+            <img src="img/Uva.jpeg" alt="Uva" class="thumbnail" onclick="showFullscreen('img/Uva.jpeg')">
+          </figure>
+
+      </div>
+      
+      <script>
+        function showFullscreen(imageSrc, description) {
+          const fullscreenContainer = document.createElement('div');
+          fullscreenContainer.classList.add('fullscreen');
+          
+          const imgElement = document.createElement('img');
+          imgElement.setAttribute('src', imageSrc);
+          imgElement.setAttribute('alt', description);
+          
+          const figCaption = document.createElement('figcaption');
+          figCaption.textContent = description;
+          
+          fullscreenContainer.appendChild(imgElement);
+          fullscreenContainer.appendChild(figCaption);
+          
+          document.body.appendChild(fullscreenContainer);
+          
+          fullscreenContainer.addEventListener('click', function() {
+            document.body.removeChild(fullscreenContainer);
+          });
+        }
+      </script>
+      
+      </body>
+      </html>
+    
+</body>
+</html>

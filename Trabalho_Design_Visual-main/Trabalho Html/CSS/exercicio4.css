@@ -1,0 +1,20 @@
+body { 
+    
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    list-style-position: inside;
+    
+ }
+html{
+    background-color: gray;
+}
+
+button{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
